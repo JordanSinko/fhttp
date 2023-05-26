@@ -37,11 +37,11 @@ import (
 
 	tls "github.com/refraction-networking/utls"
 
-	. "github.com/saucesteals/fhttp"
-	"github.com/saucesteals/fhttp/httptest"
-	"github.com/saucesteals/fhttp/httputil"
-	"github.com/saucesteals/fhttp/internal"
-	"github.com/saucesteals/fhttp/internal/testenv"
+	. "github.com/jordansinko/fhttp"
+	"github.com/jordansinko/fhttp/httptest"
+	"github.com/jordansinko/fhttp/httputil"
+	"github.com/jordansinko/fhttp/internal"
+	"github.com/jordansinko/fhttp/internal/testenv"
 )
 
 type dummyAddr string

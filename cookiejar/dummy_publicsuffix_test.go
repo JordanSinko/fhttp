@@ -4,7 +4,7 @@
 
 package cookiejar_test
 
-import "github.com/saucesteals/fhttp/cookiejar"
+import "github.com/jordansinko/fhttp/cookiejar"
 
 type dummypsl struct {
 	List cookiejar.PublicSuffixList
