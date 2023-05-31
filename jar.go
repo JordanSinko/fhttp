@@ -24,4 +24,6 @@ type CookieJar interface {
 	// It is up to the implementation to honor the standard cookie use
 	// restrictions such as in RFC 6265.
 	Cookies(u *url.URL) []*Cookie
+
+	AllCookies() []*Cookie
 }
